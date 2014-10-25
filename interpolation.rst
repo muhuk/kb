@@ -89,16 +89,15 @@ Cosine Interpolation
 ~~
 
 .. math::
+    :nowrap:
 
-    z_0 = \frac{z_{00} (1 + \cos(\pi y) + z_{01} (1 - \cos(\pi y)}{2}
-
-    z_1 = \frac{z_{10} (1 + \cos(\pi y) + z_{11} (1 - \cos(\pi y)}{2}
-
-    z = \frac{z_{0} (1 + \cos(\pi x) + z_{1} (1 - \cos(\pi x)}{2}
-
-    0 \le x \le 1
-
-    0 \le y \le 1
+    \begin{align*}
+    z = & \frac{z_{0} (1 + \cos(\pi x) + z_{1} (1 - \cos(\pi x)}{2} \\
+    z_0 = & \frac{z_{00} (1 + \cos(\pi y) + z_{01} (1 - \cos(\pi y)}{2} \\
+    z_1 = & \frac{z_{10} (1 + \cos(\pi y) + z_{11} (1 - \cos(\pi y)}{2} \\
+    & 0 \le x \le 1 \\
+    & 0 \le y \le 1
+    \end{align*}
 
 
 :math:`z_{00}, z_{01}, z_{10}, z_{11}`
@@ -106,3 +105,27 @@ Cosine Interpolation
 
 :math:`x, y`
   Interpolation factors.
+
+
+Cubic Interpolation
+-------------------
+
+.. math::
+    :nowrap:
+
+    \begin{align*}
+    x = & A r^3 + B r^2 + C r + D \\
+    A = & (x_3 - x_2) - (x_0 - x_1) \\
+    B = & (x_0 - x_1) - A \\
+    C = & x_2 - x_0 \\
+    D = & x_1 \\
+    & 0 \le r \le 1 \\
+    & x_0 \le x_1 \le x \le x_2 \le x_3
+    \end{align*}
+
+
+:math:`x_0, x_1, x_2, x_3`
+  Values to interpolate between.
+
+:math:`r`
+  Interpolation factor.
