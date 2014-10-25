@@ -129,3 +129,34 @@ Cubic Interpolation
 
 :math:`r`
   Interpolation factor.
+
+
+Bezier Curve
+------------
+
+
+.. math::
+
+    x = (1 - r)^3 x_0 + 3 (1 - r)^2 r x_1 + 3 (1 - r) r^2 x_2 + r^3 x_3
+
+
+Optimized:
+
+.. math::
+    :nowrap:
+
+    \begin{align*}
+    x = & A r^3 + B r^2 + C r + D \\
+    A = & x_3 - 3 x_2 + 3 x_1 - x_0 \\
+    B = & 3 x_2 - 6 x_1 + 3 x_0 \\
+    C = & 3 x_1 - 3 x_0 \\
+    D = & x_0 \\
+    & 0 \le r \le 1 \\
+    & x_0 \le x_1 \le x \le x_2 \le x_3
+    \end{align*}
+
+:math:`x_0, x_1, x_2, x_3`
+  Values to interpolate between.
+
+:math:`r`
+  Interpolation factor.
