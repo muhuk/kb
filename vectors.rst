@@ -27,54 +27,49 @@ Addition and Subtraction
 ------------------------
 
 .. math::
+    :nowrap:
 
-    \vec{C} & = \vec{A} + \vec{B} \\
-    \vec{C}.x & = \vec{A}.x + \vec{B}.x \\
-    \vec{C}.y & = \vec{A}.y + \vec{B}.y \\
-    \vec{C}.z & = \vec{A}.z + \vec{B}.z
+    \begin{flalign*}
+    \vec{C} & = \vec{A} + \vec{B}        & \vec{C} & = \vec{A} - \vec{B} \\
+    \vec{C}.x & = \vec{A}.x + \vec{B}.x  & \vec{C}.x & = \vec{A}.x - \vec{B}.x \\
+    \vec{C}.y & = \vec{A}.y + \vec{B}.y  & \vec{C}.y & = \vec{A}.y - \vec{B}.y \\
+    \vec{C}.z & = \vec{A}.z + \vec{B}.z  & \vec{C}.z & = \vec{A}.z - \vec{B}.z
+    \end{flalign*}
 
 
-.. math::
-
-    \vec{C} & = \vec{A} - \vec{B} \\
-    \vec{C}.x & = \vec{A}.x - \vec{B}.x \\
-    \vec{C}.y & = \vec{A}.y - \vec{B}.y \\
-    \vec{C}.z & = \vec{A}.z - \vec{B}.z
+Result is a vector.
 
 
 Multiplication and Division
 ---------------------------
 
-.. math::
-
-    \vec{B} & = \vec{A} \, k \\
-    \vec{B}.x & = \vec{A}.x \, k \\
-    \vec{B}.y & = \vec{A}.y \, k \\
-    \vec{B}.z & = \vec{A}.z \, k
-
+With a scalar:
 
 .. math::
+    :nowrap:
 
-    \vec{C} & = \vec{A} \, \vec{B} \\
-    \vec{C}.x & = \vec{A}.x \, \vec{B}.x \\
-    \vec{C}.y & = \vec{A}.y \, \vec{B}.y \\
-    \vec{C}.z & = \vec{A}.z \, \vec{B}.z
+    \begin{flalign*}
+    \vec{B} & = \vec{A} \, k      & \vec{B} & = \frac{\vec{A}}{k} \\
+    \vec{B}.x & = \vec{A}.x \, k  & \vec{B}.x & = \frac{\vec{A}.x}{k} \\
+    \vec{B}.y & = \vec{A}.y \, k  & \vec{B}.y & = \frac{\vec{A}.y}{k} \\
+    \vec{B}.z & = \vec{A}.z \, k  & \vec{B}.z & = \frac{\vec{A}.z}{k}
+    \end{flalign*}
 
 
-.. math::
-
-    \vec{B} & = \frac{\vec{A}}{k} \\
-    \vec{B}.x & = \frac{\vec{A}.x}{k} \\
-    \vec{B}.y & = \frac{\vec{A}.y}{k} \\
-    \vec{B}.z & = \frac{\vec{A}.z}{k}
-
+With another vector:
 
 .. math::
+    :nowrap:
 
-    \vec{C} & = \frac{\vec{A}}{\vec{B}} \\
-    \vec{C}.x & = \frac{\vec{A}.x}{\vec{B}.x} \\
-    \vec{C}.y & = \frac{\vec{A}.y}{\vec{B}.y} \\
-    \vec{C}.z & = \frac{\vec{A}.z}{\vec{B}.z}
+    \begin{flalign*}
+    \vec{C} & = \vec{A} \, \vec{B}       & \vec{C} & = \frac{\vec{A}}{\vec{B}} \\
+    \vec{C}.x & = \vec{A}.x \, \vec{B}.x & \vec{C}.x & = \frac{\vec{A}.x}{\vec{B}.x} \\
+    \vec{C}.y & = \vec{A}.y \, \vec{B}.y & \vec{C}.y & = \frac{\vec{A}.y}{\vec{B}.y} \\
+    \vec{C}.z & = \vec{A}.z \, \vec{B}.z & \vec{C}.z & = \frac{\vec{A}.z}{\vec{B}.z}
+    \end{flalign*}
+
+
+Result is a vector.
 
 
 Dot Product
