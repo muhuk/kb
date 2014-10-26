@@ -26,14 +26,6 @@ Result is a vector with :math:`length = 1`.
 Addition and Subtraction
 ------------------------
 
-Vec3 operator + (const Vec3<T> &v) const { return Vec3<T>(x + v.x, y + v.y, z + v.z); }
-Vec3 operator * (const T &val) const { return Vec3<T>(x * val, y * val, z * val); }
-Vec3 operator / (const T &val) const { T invVal = T(1) / val; return Vec3<T>(x * invVal, y * invVal, z * invVal); }
-Vec3 operator / (const Vec3<T> &v) const { return Vec3<T>(x / v.x, y / v.y, z / v.z); }
-Vec3 operator * (const Vec3<T> &v) const { return Vec3<T>(x * v.x, y * v.y, z * v.z); }
-Vec3 operator - (const Vec3<T> &v) const { return Vec3<T>(x - v.x, y - v.y, z - v.z); }
-Vec3 operator - () const { return Vec3<T>(-x, -y, -z); }
-
 .. math::
 
     \vec{C} & = \vec{A} + \vec{B} \\
