@@ -13,6 +13,8 @@ Contents:
 
     interpolation
     resources
+    vectors
+
 
 Indices and tables
 ==================
