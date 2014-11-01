@@ -126,3 +126,27 @@ Cross product is anticommutative:
     \vec{A} \times \vec{B} \neq \vec{B} \times \vec{A}
 
     \vec{C} = \vec{A} \times \vec{B} \iff \vec{B} \times \vec{A} = -\vec{C}
+
+
+Spherical Coordinates
+---------------------
+
+:math:`\phi` is the angle that lies on xy plane. :math:`\theta` is the angle
+perpendicular to xy plane.
+
+.. math::
+    :nowrap:
+
+    \begin{align*}
+    \phi & = \arctan\left({y \over x}\right) & 0 \le \phi \le 2\pi \\
+    \theta & = \arccos(z) & 0 \le \theta \le \pi
+    \end{align*}
+
+
+Spherical coordinates can be converted to a unit vector using:
+
+.. math::
+
+    x & = cos(\phi) \, sin(\theta) \\
+    y & = sin(\phi) \, sin(\theta) \\
+    z & = cos(\theta)
