@@ -14,6 +14,7 @@ Contents:
     geometric_operations
     interpolation
     matrices
+    relational_algebra
     resources
     vectors
 
