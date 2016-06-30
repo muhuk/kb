@@ -15,7 +15,7 @@ If the fourth component is not 1, the point can be normalized:
 
 .. math::
 
-    \begin{bmatrix} x & y & z & w \over w \end{bmatrix} \to \begin{bmatrix} x \over w & y \over w & z \over w & 1 \end{bmatrix}
+    \begin{bmatrix} x & y & z & w \end{bmatrix} \to \begin{bmatrix} x \over w & y \over w & z \over w & 1 \end{bmatrix}
 
 
 Translation
