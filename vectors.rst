@@ -29,12 +29,12 @@ Addition and Subtraction
 .. math::
     :nowrap:
 
-    \begin{flalign*}
+    \begin{align*}
     \vec{C} & = \vec{A} + \vec{B}        & \vec{C} & = \vec{A} - \vec{B} \\
     \vec{C}.x & = \vec{A}.x + \vec{B}.x  & \vec{C}.x & = \vec{A}.x - \vec{B}.x \\
     \vec{C}.y & = \vec{A}.y + \vec{B}.y  & \vec{C}.y & = \vec{A}.y - \vec{B}.y \\
     \vec{C}.z & = \vec{A}.z + \vec{B}.z  & \vec{C}.z & = \vec{A}.z - \vec{B}.z
-    \end{flalign*}
+    \end{align*}
 
 
 Result is a vector.
@@ -48,12 +48,12 @@ With a scalar:
 .. math::
     :nowrap:
 
-    \begin{flalign*}
+    \begin{align*}
     \vec{B} & = \vec{A} \, k      & \vec{B} & = \frac{\vec{A}}{k} \\
     \vec{B}.x & = \vec{A}.x \, k  & \vec{B}.x & = \frac{\vec{A}.x}{k} \\
     \vec{B}.y & = \vec{A}.y \, k  & \vec{B}.y & = \frac{\vec{A}.y}{k} \\
     \vec{B}.z & = \vec{A}.z \, k  & \vec{B}.z & = \frac{\vec{A}.z}{k}
-    \end{flalign*}
+    \end{align*}
 
 
 With another vector:
@@ -61,12 +61,12 @@ With another vector:
 .. math::
     :nowrap:
 
-    \begin{flalign*}
+    \begin{align*}
     \vec{C} & = \vec{A} \, \vec{B}       & \vec{C} & = \frac{\vec{A}}{\vec{B}} \\
     \vec{C}.x & = \vec{A}.x \, \vec{B}.x & \vec{C}.x & = \frac{\vec{A}.x}{\vec{B}.x} \\
     \vec{C}.y & = \vec{A}.y \, \vec{B}.y & \vec{C}.y & = \frac{\vec{A}.y}{\vec{B}.y} \\
     \vec{C}.z & = \vec{A}.z \, \vec{B}.z & \vec{C}.z & = \frac{\vec{A}.z}{\vec{B}.z}
-    \end{flalign*}
+    \end{align*}
 
 
 Result is a vector.
