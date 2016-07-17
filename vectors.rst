@@ -131,15 +131,23 @@ Cross product is anticommutative:
 Spherical Coordinates
 ---------------------
 
-:math:`\phi` is the angle that lies on xy plane. :math:`\theta` is the angle
-perpendicular to xy plane.
+A left-handed coordinate system (z-up) is used below:
+
+:math:`\theta` (polar)
+    Angle perpendicular to xy plane.
+
+:math:`\phi` (azimuth)
+    Angle that lies on xy plane.
+
+
+Given a unit vector:
 
 .. math::
     :nowrap:
 
     \begin{align*}
+    \theta & = \arccos(z) & 0 \le \theta \le \pi \\
     \phi & = \arctan\left({y \over x}\right) & 0 \le \phi \le 2\pi \\
-    \theta & = \arccos(z) & 0 \le \theta \le \pi
     \end{align*}
 
 
