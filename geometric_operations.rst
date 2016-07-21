@@ -71,6 +71,16 @@ Scaling
     \end{bmatrix}
 
 
+Transforming Normals
+--------------------
+
+Normals cannot be transformed like normal vectors. Transpose of the inverse of a transformation matrix must be used to transform normals:
+
+.. math::
+
+    N' = N * M^{-1T}
+
+
 Coordinate Systems
 ------------------
 
